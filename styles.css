@@ -1,7 +1,14 @@
 /* Simple and cute modern styling */
 
+@font-face {
+  font-family: 'Moonstorm';
+  src: local('Moonstorm'), url('./fonts/Moonstorm.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: 'Arial', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f9f9f9;
   color: #333;
   margin: 0;
@@ -11,7 +18,8 @@ body {
 h1 {
   color: #ff6b6b;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
+  font-family: 'Moonstorm', cursive;
 }
 
 p {
@@ -38,24 +46,18 @@ button:hover {
 
 #output {
   text-align: center;
-  margin: 30px auto 20px auto;
+    margin: 20px auto;
   padding: 20px;
   background-color: #fff;
-  border: 1px solid #ddd;
   border-radius: 10px;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
 }
 
 img {
   display: block;
   margin: 0 auto 30px auto;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Optional: Add a subtle background gradient */
-body {
-  background: linear-gradient(to right, #e0f7fa, #b3e5fc);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
